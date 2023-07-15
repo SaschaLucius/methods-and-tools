@@ -1,5 +1,5 @@
 theme:
-  name: material
+  name: mkdocs
 
 site_name: Methods and Tools
 site_author: "Sascha Lucius"
