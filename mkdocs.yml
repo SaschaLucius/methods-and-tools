@@ -1,2 +1,9 @@
 theme:
   name: material
+
+site_name: Methods and Tools
+
+nav:
+  - 'index.md'
+
+site_author: "Sascha Lucius"
