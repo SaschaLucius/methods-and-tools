@@ -1,8 +1,13 @@
 theme:
-  name: mkdocs
+  name: material
+  features:
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
 
 site_name: Methods and Tools
 site_author: "Sascha Lucius"
 site_url: https://saschalucius.github.io/methods-and-tools2/
 
 repo_url: https://github.com/SaschaLucius/methods-and-tools2
+edit_uri: edit/main/docs/
