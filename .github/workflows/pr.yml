@@ -1,13 +1,10 @@
-name: ci 
+name: pr
 on:
-  push:
-    branches:
-      - master 
-      - main
-permissions:
-  contents: write
+  pull_request:
+  workflow_dispatch:
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -22,4 +19,4 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs build
