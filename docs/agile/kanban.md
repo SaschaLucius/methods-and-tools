@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Kanban
-parent: Agile
 ---
 
-- Kanban
+# Kanban
+
+- https://kanbanguides.org/english/

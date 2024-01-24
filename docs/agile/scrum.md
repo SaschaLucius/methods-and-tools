@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Scrum
-parent: Agile
 ---
 
-- Scrum
+# Scrum
+
+- https://scrumguides.org/

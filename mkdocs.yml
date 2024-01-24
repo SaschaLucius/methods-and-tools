@@ -1,13 +1,23 @@
-theme:
-  name: material
-  features:
-    - content.action.edit
-  icon:
-    repo: fontawesome/brands/github
-
 site_name: Methods and Tools
 site_author: "Sascha Lucius"
 site_url: https://saschalucius.github.io/methods-and-tools/
 
 repo_url: https://github.com/SaschaLucius/methods-and-tools
 edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides/
+  features:
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+copyright: Copyright &copy; 2023 Sascha Lucius
+
+plugins:
+  - search # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/
+  - tags # https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
+
+extra:
+  generator: true # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=generator#generator-notice
